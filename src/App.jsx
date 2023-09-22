@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [frame, setframe] = useState("0")
+  const [frame, setframe] = useState("")
 
   const func = (number) => {
 
@@ -76,7 +76,7 @@ function App() {
     }
     else if (number === "On")
     {
-      setframe("0")
+      setframe("")
     }
     else if (number === "Off")
     {
@@ -91,7 +91,7 @@ function App() {
   }
 
   return (
-    <div className = "w-full flex justify-center items-center bg-stone-100 ">
+    <div className = "w-full flex justify-center items-center bg-stone-100 max-sm:scale-50">
       <div className='text-3xl w-1/2 rounded-xl bg-stone-300 min-h-screen flex-col pr-6 pl-6 max-sm:w-full'>
         <div className = "bg-stone-400 w-full h-32 flex mt-24 rounded-xl text-white flex justify-end items-end text-7xl">
           {frame}
