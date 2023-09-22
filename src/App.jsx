@@ -91,13 +91,13 @@ function App() {
   }
 
   return (
-    <div className = "w-full flex justify-center items-center bg-stone-100 ">
-      <div className='text-3xl w-1/2 rounded-xl bg-stone-300 min-h-screen flex-col pr-6 pl-6 max-sm:w-full'>
+    <div className = "w-full flex justify-center items-center bg-orange-50">
+      <div className='text-3xl w-1/2 rounded-xl bg-red-100 min-h-screen flex-col pr-6 pl-6 max-sm:w-full'>
         <div className = "bg-stone-400 w-full h-32 flex mt-24 rounded-xl text-white flex justify-end items-end text-7xl">
           {frame}
         </div>
 
-        <div className = "w-full bg-stone-300 h-28 mt-20 flex justify-end max-sm:text-xs">
+        <div className = "w-full bg-red-100 h-28 mt-20 flex justify-end max-sm:text-xs">
           <div className = "w-1/4 bg-stone-400 h-28  ml-4 mr-4 rounded-xl text-6xl max-sm:text-4xl max-sm:w-1/2 flex justify-center items-center text-white active:bg-zinc-400" onClick = { () => func("Del")}>
             Del
           </div>
@@ -109,7 +109,7 @@ function App() {
           </div>
         </div>
 
-        <div className = "w-full bg-stone-300 h-28 mt-20 flex justify-end">
+        <div className = "w-full bg-red-100 h-28 mt-20 flex justify-end">
           <div className = "w-1/4 bg-stone-400 h-28  ml-4 mr-4 rounded-xl text-6xl max-sm:text-4xl max-sm:w-1/2 flex justify-center items-center text-white active:bg-zinc-400" onClick = { () => func("7")}>
             7
           </div>
@@ -124,7 +124,7 @@ function App() {
           </div>  
         </div>
 
-        <div className = "w-full bg-stone-300 h-28 mt-20 flex justify-end">
+        <div className = "w-full bg-red-100 h-28 mt-20 flex justify-end">
         <div className = "w-1/4 bg-stone-400 h-28  ml-4 mr-4 rounded-xl text-6xl max-sm:text-4xl max-sm:w-1/2 flex justify-center items-center text-white active:bg-zinc-400" onClick = { () => func("4")}>
             4
           </div>
@@ -139,7 +139,7 @@ function App() {
           </div>
         </div>
 
-        <div className = "w-full bg-stone-300 h-28 mt-20 flex justify-end">
+        <div className = "w-full bg-red-100 h-28 mt-20 flex justify-end">
         <div className = "w-1/4 bg-stone-400 h-28  ml-4 mr-4 rounded-xl text-6xl max-sm:text-4xl max-sm:w-1/2 flex justify-center items-center text-white active:bg-zinc-400" onClick = { () => func("1")}>
             1
           </div>
@@ -154,7 +154,7 @@ function App() {
           </div>
         </div>
 
-        <div className = "w-full bg-stone-300 h-28 mt-20 flex justify-end">
+        <div className = "w-full bg-red-100 h-28 mt-20 flex justify-end">
           <div className = "w-1/4 bg-stone-400 h-28  ml-4 mr-4 rounded-xl text-6xl max-sm:text-4xl max-sm:w-1/2 flex justify-center items-center text-white active:bg-zinc-400" onClick = { () => func("Ent")}>
             Enter
           </div>
